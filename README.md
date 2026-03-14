@@ -14,5 +14,5 @@ specified in `phoque-you.sh` (be sure to then rename it to `phoque-you/`).
 The `wordgen.ts` file is a typescript script to be run using [Deno](https://deno.com/). By using
 the excellent [Compromise NLP library](https://github.com/spencermountain/compromise), it goes
 through `wordlist.txt` and separates all the words into `words/adjectives.txt`, `words/adverbs.txt`,
-`words/nouns.txt`, and `words/verbs.txt`. `wordlist.txt` is a slightly modified version of
-`2of5core.txt` from [12Dicts](http://wordlist.aspell.net/12dicts).
+`words/nouns.txt`, and `words/verbs.txt`. `wordlist.txt` is a slightly modified version of the
+[American Oxford 5000](https://www.oxfordlearnersdictionaries.com/about/wordlists/oxford3000-5000).
