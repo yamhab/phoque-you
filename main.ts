@@ -1,7 +1,4 @@
-#!/usr/bin/env -S deno run -A
-
-// The natural language processing library to be used
-import nlp from "npm:compromise";
+import nlp from "compromise";
 
 // Creates the given wordlist using a callback
 async function format_file(

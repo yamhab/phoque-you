@@ -1,0 +1,12 @@
+{
+    "tasks": {
+        "dev": "deno run -A main.ts"
+    },
+    "fmt": {
+        "indentWidth": 4,
+        "lineWidth": 100
+    },
+    "imports": {
+        "compromise": "npm:compromise@^14.15.0"
+    }
+}

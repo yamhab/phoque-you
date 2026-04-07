@@ -1,0 +1,30 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:compromise@^14.15.0": "14.15.0"
+  },
+  "npm": {
+    "compromise@14.15.0": {
+      "integrity": "sha512-YEMv5JGWyqRJw5hdZqDVQF3MMlHA6TRiXreR8IYffk6xB7GA5p/8DeDzvg0Jy2tHNGpD+qJGl0+oJwA+5R/sVA==",
+      "dependencies": [
+        "efrt",
+        "grad-school",
+        "suffix-thumb"
+      ]
+    },
+    "efrt@2.7.0": {
+      "integrity": "sha512-/RInbCy1d4P6Zdfa+TMVsf/ufZVotat5hCw3QXmWtjU+3pFEOvOQ7ibo3aIxyCJw2leIeAMjmPj+1SLJiCpdrQ=="
+    },
+    "grad-school@0.0.5": {
+      "integrity": "sha512-rXunEHF9M9EkMydTBux7+IryYXEZinRk6g8OBOGDBzo/qWJjhTxy86i5q7lQYpCLHN8Sqv1XX3OIOc7ka2gtvQ=="
+    },
+    "suffix-thumb@5.0.2": {
+      "integrity": "sha512-I5PWXAFKx3FYnI9a+dQMWNqTxoRt6vdBdb0O+BJ1sxXCWtSoQCusc13E58f+9p4MYx/qCnEMkD5jac6K2j3dgA=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:compromise@^14.15.0"
+    ]
+  }
+}
